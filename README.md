@@ -54,6 +54,15 @@ python3 ransomware.py
 This project is for educational purposes only.
 Do not deploy, run, or adapt this code for malicious purposes. The author is not responsible for any misuse.
 
+## 🧑‍💻 Project Notes
+This is a **beginner-level simulation** created for learning purposes only.  
+The detection logic is intentionally simplified — it assumes the encryption key will be stored in the same monitored directory.  
 
+The goal is to demonstrate:
+- How to monitor files in real time using Python's `watchdog`
+- How to use `cryptography` (Fernet) for encryption/decryption
+- How to simulate a ransomware-like process in a **safe, offline** test environment
+
+This is **NOT** intended for real-world use.
 ---
 
