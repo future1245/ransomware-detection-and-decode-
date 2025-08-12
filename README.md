@@ -39,14 +39,17 @@ cd Ransomware-Defense-Simulator
 
 ```
 2️⃣ Install dependencies
+```bash
 pip install -r requirements.txt
-
+```
 3️⃣ Start the decrypter
+```bash
 python3 ranprev.py
-
+```
 4️⃣ Run the ransomware simulation (in another terminal)
+```bash
 python3 ransomware.py
-
+```
 ⚠ Disclaimer
 This project is for educational purposes only.
 Do not deploy, run, or adapt this code for malicious purposes. The author is not responsible for any misuse.
