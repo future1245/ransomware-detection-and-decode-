@@ -6,7 +6,6 @@ from cryptography.fernet import Fernet
 
 print("="*60)
 print("[🔍] Ransomware Decryption Monitor Started")
-print(f"[📂] Scanning directory: /home/future/Desktop/ransomware_folder")
 print("="*60)
 
 class Decrypter(FileSystemEventHandler):
@@ -57,7 +56,7 @@ class Decrypter(FileSystemEventHandler):
                 continue
 
 if __name__ == "__main__":
-    path = "/home/future/Desktop/ransomware_folder"
+    path = input("Enter the full path to the folder to monitor: ").strip()
     event_handler = Decrypter()
     observer = Observer()
     observer.schedule(event_handler, path=path, recursive=True)
